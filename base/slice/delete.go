@@ -21,3 +21,21 @@ func Delete[T any](src []T, index int) ([]T, T, error) {
 	src = src[:length-1]
 	return src, value, nil
 }
+
+// FilterDelete 删除符合条件的元素
+// 考虑到性能问题，所有操作都会在原切片上进行
+// 满足条件的元素删除后，其他剩余的元素会往前移动，有且只会移动一次
+func FilterDelete[T any](src []T, f func(index int, value T) bool) []T {
+	// 删除符合条件的元素后的 index
+	newIndex := 0
+	for index, value := range src {
+		// 判断是否满足删除的条件
+		//满足条件，跳过当前循环，即不将该元素包含在新的切片中
+		if f(index, value) {
+			continue
+		}
+		src[newIndex] = value
+		newIndex++
+	}
+	return src[:newIndex]
+}
