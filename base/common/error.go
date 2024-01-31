@@ -1,6 +1,7 @@
 package common
 
 import (
+	"errors"
 	"fmt"
 	"time"
 )
@@ -22,4 +23,9 @@ func NewErrInvalidIntervalValue(interval time.Duration) error {
 
 func NewErrInvalidMaxIntervalValue(maxInterval, initialInterval time.Duration) error {
 	return fmt.Errorf(" 最大重试间隔的时间 [%d] 应大于等于初始重试的间隔时间 [%d] ", maxInterval, initialInterval)
+}
+
+func NewErrWithMessage(message string) error {
+
+	return errors.New(message)
 }
