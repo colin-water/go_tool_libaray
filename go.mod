@@ -1,4 +1,4 @@
-module github.com/yishengzhishui/library
+module github.com/colin-water/go_tool_libaray
 
 go 1.21.3
 

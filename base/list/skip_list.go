@@ -2,7 +2,7 @@ package list
 
 import (
 	"errors"
-	"github.com/yishengzhishui/library/base/common"
+	"github.com/colin-water/go_tool_libaray/base/common"
 	"math/rand"
 )
 

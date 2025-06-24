@@ -1,8 +1,8 @@
 package queue
 
 import (
-	"github.com/yishengzhishui/library/base/common"
-	"github.com/yishengzhishui/library/base/slice"
+	"github.com/colin-water/go_tool_libaray/base/common"
+	"github.com/colin-water/go_tool_libaray/base/slice"
 )
 
 // PriorityQueue 是一个基于小顶堆的优先队列

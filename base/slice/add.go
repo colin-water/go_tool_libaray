@@ -1,6 +1,6 @@
 package slice
 
-import "github.com/yishengzhishui/library/base/common"
+import "github.com/colin-water/go_tool_libaray/base/common"
 
 func Add[T any](src []T, element T, index int) ([]T, error) {
 	length := len(src)

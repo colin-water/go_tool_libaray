@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"github.com/yishengzhishui/library/base/common"
+	"github.com/colin-water/go_tool_libaray/base/common"
 	"sync"
 )
 

@@ -1,6 +1,6 @@
 package list
 
-import "github.com/yishengzhishui/library/base/common"
+import "github.com/colin-water/go_tool_libaray/base/common"
 
 // node 双向循环链表结点
 type node[T any] struct {

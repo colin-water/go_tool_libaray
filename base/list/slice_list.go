@@ -1,8 +1,8 @@
 package list
 
 import (
-	"github.com/yishengzhishui/library/base/common"
-	"github.com/yishengzhishui/library/base/slice"
+	"github.com/colin-water/go_tool_libaray/base/common"
+	"github.com/colin-water/go_tool_libaray/base/slice"
 )
 
 type ArrayList[T any] struct {

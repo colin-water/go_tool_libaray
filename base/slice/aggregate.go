@@ -1,6 +1,6 @@
 package slice
 
-import "github.com/yishengzhishui/library/base/common"
+import "github.com/colin-water/go_tool_libaray/base/common"
 
 // Max 返回最大值。
 // 该方法假设你至少会传入一个值，确保是数字。

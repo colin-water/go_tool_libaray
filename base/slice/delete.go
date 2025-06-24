@@ -1,7 +1,7 @@
 package slice
 
 import (
-	"github.com/yishengzhishui/library/base/common"
+	"github.com/colin-water/go_tool_libaray/base/common"
 )
 
 // Delete 删除切片元素，并将删除的元素值返回

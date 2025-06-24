@@ -1,6 +1,6 @@
 package mapx
 
-import "github.com/yishengzhishui/library/base/pool"
+import "github.com/colin-water/go_tool_libaray/base/pool"
 
 // Hashable 接口定义了元素需要实现的两个方法：Code 和 Equals。
 type Hashable interface {
